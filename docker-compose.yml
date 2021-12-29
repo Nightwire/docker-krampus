@@ -1,10 +1,9 @@
 krampus:
-   build:
-    image: ghcr.io/nightwire/docker-krampus:main
-    restart: always
-    environment:
-        - ts3maxgroupcount: 5
-        - ts3address: teamspeak
-        - ts3username: username
-        - ts3password: password
-   
+  image: ghcr.io/nightwire/docker-krampus:main
+  restart: always
+  environment:
+      ts3maxgroupcount: 5
+      ts3address: teamspeak
+      ts3username: Krampus
+      ts3password: password
+      ts3nickname: Krampus
