@@ -1,5 +1,5 @@
 krampus:
-  image: ghcr.io/nightwire/docker-krampus:main
+  image: ghcr.io/nightwire/docker-krampus:latest
   restart: always
   environment:
       ts3maxgroupcount: 5
