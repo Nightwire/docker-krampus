@@ -15,4 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+# Add Github Labels
+LABEL org.opencontainers.image.source https://github.com/Nightwire/docker-krampus
+
 CMD [ "node", "main.js" ]
